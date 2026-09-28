@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "The Otian's Calendar",
+    "slug": "otians-calendar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.otians.calendar",
+      "permissions": ["NOTIFICATIONS"]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#c0653f"
+        }
+      ]
+    ]
+  }
+}
